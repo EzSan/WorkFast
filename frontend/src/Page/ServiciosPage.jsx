@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Axios from 'axios';
-import CardsComp from '../components/CardsComp';
+import CardsComp from '../Components/CardsComp';
 import { ProgressBar } from 'react-bootstrap';
-import FooterComp from '../components/FooterComp';
+import FooterComp from '../Components/FooterComp';
 
 
 function HomeView() {

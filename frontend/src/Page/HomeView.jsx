@@ -3,12 +3,11 @@ import styled from 'styled-components';
 import Button from 'react-bootstrap/Button'
 import resume from '../image/paisa.jpg';
 import { InnerLayout, MainLayout } from '../styles/Layouts';
-import Carrusel from '../components/Carrusel';
-import ServiciosHome from '../components/ServicioHome/ServiciosHome';
-import Servicio from '../components/ServicioHome/Servicio';
-import FooterComp from '../components/FooterComp';
-import Resultados from '../components/ServicioHome/Resultados';
-
+import Carrusel from '../Components/Carrusel';
+import ServiciosHome from '../Components/ServicioHome/ServiciosHome';
+import Servicio from '../Components/ServicioHome/Servicio';
+import FooterComp from '../Components/FooterComp';
+import Resultados from '../Components/ServicioHome/Resultados';
 
 
 

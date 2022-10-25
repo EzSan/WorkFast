@@ -1,7 +1,7 @@
 import React from "react";
 import { MainLayout } from '../styles/Layouts';
-import Title from '../components/Title';
-import {RegistroComp} from '../components/RegistroComp';
+import Title from '../Components/Title';
+import {RegistroComp} from '../Components/RegistroComp';
 
 function RegistroView() {
     return (

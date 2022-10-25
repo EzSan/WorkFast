@@ -9,8 +9,8 @@ import {
     Modal,
     Button,
 } from 'react-bootstrap';
-import DataEmprendedorComp from '../components/DataEmprendedorComp';
-import Title from '../components/Title';
+import DataEmprendedorComp from '../Components/DataEmprendedorComp';
+import Title from '../Components/Title';
 import Swal from 'sweetalert2';
 
 function DataEmprendedorView() {

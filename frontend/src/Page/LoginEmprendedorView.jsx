@@ -1,8 +1,8 @@
 import React from 'react'
-import LoginComp from '../components/LoginComp';
+import LoginComp from '../Components/LoginComp';
 import Axios from 'axios';
 import Swal from 'sweetalert2';
-import Title from '../components/Title';
+import Title from '../Components/Title';
 import { Container } from 'react-bootstrap';
 import { MainLayout } from '../styles/Layouts';
 

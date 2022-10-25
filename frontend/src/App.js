@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import NavbarComp from './components/NavbarComp';
+import NavbarComp from './Components/NavbarComp';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Page/HomeView';
 import Registro from './Page/RegistroView';
 import Servicios from './Page/ServiciosPage';
-import AboutUs from './Page/AboutUsPage';
+import AboutUsPage from './Page/AboutUsPage';
 import DataEmprendedorView from './Page/DataEmprendedorView';
-import { RoutePrivate } from './components/RoutePrivate';
+import { RoutePrivate } from './Components/RoutePrivate';
 import LoginEmprendedorView from './Page/LoginEmprendedorView.jsx';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
                     <Servicios />
                 </Route>
                 <Route path="/nosotros" exact>
-                    <AboutUs />
+                    <AboutUsPage/>
                 </Route>
                 <Route path="/login" exact>
                     <LoginEmprendedorView />
